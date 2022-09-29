@@ -85,6 +85,8 @@ footer {
     text-align: center;
     font-size: 1.4rem;
     padding-top: 10px;
+    position: relative;
+    bottom: 0px;
 }
 
 /* **************PAGE INDEX*************** */
@@ -172,8 +174,8 @@ footer {
 /* SECTION INFO */
 .main__sectionInfo {
     display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
+    justify-content: space-around;
+    margin: 20px auto;
 }
 
 .sectionInfo__div {
@@ -263,7 +265,7 @@ footer {
 /* **************************************** */
 
 .main__form {
-    width: 50vw;
+    /* width: 50vw; */
     text-align: center;
     margin: 0 auto 40px;
 }
@@ -286,7 +288,7 @@ footer {
 }
 
 .main__form input  {
-    width: 60%;
+    min-width: 300px;
     height: 30px;
     text-align: center;
     font-style: italic;
@@ -296,7 +298,7 @@ footer {
 
 
 .main__form textarea {
-    width: 60%;
+    min-width: 300px;
     height: 80px;
     text-align: center;
     font-style: italic;
