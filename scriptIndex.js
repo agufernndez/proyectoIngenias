@@ -1,4 +1,3 @@
-// SALUDO - INDEX
+// SALUDO
 let nombre = prompt("Ingrese su nombre");
-alert("Hola "+nombre+", gracias por visitar nuestro sitio web.Cualquier consulta podes escribirnos por WhatsApp para acceder a una atención personalizada.")
-
+alert("Hola "+ nombre.toUpperCase() +", gracias por visitar nuestro sitio web. Cualquier consulta podes escribirnos por WhatsApp para una atención más personalizada.")
